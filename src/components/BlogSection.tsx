@@ -2,38 +2,37 @@
  import blogRoad from "@/assets/blog-road.jpg";
  import blogFrames from "@/assets/blog-frames.jpg";
  
- const blogPosts = [
-   {
-     image: blogFrames,
-     date: "20-08-2022",
-     excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
-   },
-   {
-     image: blogChurch,
-     date: "25-08-2022",
-     excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
-   },
-   {
-     image: blogRoad,
-     date: "30-08-2022",
-     excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
-   },
- ];
+const blogPosts = [
+  {
+    image: blogFrames,
+    date: "20-08-2022",
+    excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+  },
+  {
+    image: blogChurch,
+    date: "25-08-2022",
+    excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+  },
+  {
+    image: blogRoad,
+    date: "30-08-2022",
+    excerpt: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+  },
+];
  
  const BlogSection = () => {
    return (
      <section className="section-padding bg-sand">
        <div className="container-wide">
-         {/* Section Header */}
-         <div className="text-center mb-4">
-           <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-3">
-             Invidunt ut
-           </h2>
-           <p className="text-muted-foreground text-sm max-w-md mx-auto">
-             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-             diam nonumy eirmod tempor invidunt ut labore et dolore magna.
-           </p>
-         </div>
+          {/* Section Header */}
+          <div className="text-center mb-4">
+            <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-3">
+              Invidunt ut
+            </h2>
+            <p className="text-muted-foreground text-sm max-w-md mx-auto">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+            </p>
+          </div>
  
          {/* Blog Grid */}
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 max-w-5xl mx-auto">

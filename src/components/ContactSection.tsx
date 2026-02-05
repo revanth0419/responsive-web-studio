@@ -9,10 +9,9 @@
            <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-4">
              Nonumy eirmod
            </h2>
-           <p className="text-muted-foreground text-sm mb-8 max-w-md mx-auto">
-             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-             diam nonumy eirmod tempor invidunt ut labore et dolore magna.
-           </p>
+            <p className="text-muted-foreground text-sm mb-8 max-w-md mx-auto">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
+            </p>
            
            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
              <Input 

@@ -7,10 +7,9 @@
        <div className="section-padding pb-8">
          <div className="container-wide text-center">
            <h3 className="text-2xl font-serif font-bold tracking-wide mb-4">MAGNA</h3>
-           <p className="text-sm text-cream-dark/70 max-w-md mx-auto mb-6">
-             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dia 
-             eirmod tempor incididunt ut labore et dolore aliqua.
-           </p>
+            <p className="text-sm text-cream-dark/70 max-w-md mx-auto mb-6">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dia eirmod tempor incididunt ut labore et dolore aliqua.
+            </p>
            
            {/* Social Links */}
            <div className="flex justify-center gap-6">
